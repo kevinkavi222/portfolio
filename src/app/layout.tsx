@@ -47,7 +47,8 @@ export default function RootLayout({
           <main className="flex-1 py-10">{children}</main>
           <footer className="border-t border-slate-300/80">
             <div className="mx-auto max-w-5xl px-4 py-6 text-xs text-slate-600 sm:px-6 lg:px-8">
-              © {new Date().getFullYear()} Kevin Muchuo. All rights reserved.
+              <p className="mb-1">QA Automation · Development · Instructor</p>
+              <p>© {new Date().getFullYear()} Kevin Muchuo. All rights reserved.</p>
             </div>
           </footer>
         </div>
