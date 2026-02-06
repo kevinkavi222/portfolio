@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Full-page background for the entire app */
+html {
+  min-height: 100%;
+  overflow-x: hidden;
+  background-image: url("/page-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  @apply antialiased;
+  background: transparent;
+  color: #1e293b; /* slate-800 – visible on light background */
+}
+
+main {
+  @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  background: transparent;
+}
+
